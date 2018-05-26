@@ -1,0 +1,504 @@
+body {
+		background-color: #FFFFFF;
+		 font-family:'Open Sans';
+		 color: #000080;
+	}
+
+header{
+	float:left;
+	width:100%;
+	box-sizing: border-box;
+	background:#8B008B;
+	color: #FFFFFF;
+}
+
+label {
+  display: block;
+}
+
+.registro{
+	width: 20%;
+	float: left;
+	margin-top:2%;
+
+}
+
+#br:hover{
+	cursor: pointer;
+}
+
+.logo{
+	width: 30%;
+	float: left;
+	margin-left: 1%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.titulo{
+	width: 30%;
+	float: left;
+	margin-right: 13%;
+	text-align: center;
+}
+
+.imagenportada{
+	max-width: 100%;
+  height: auto;
+	float:left;
+	width:50%;
+	margin-left: 1%;
+}
+
+.menuportada{
+	margin-top: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+	float:left;
+	width:43%;
+	height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+		/*border: 10% solid #555;*/
+}
+
+li a {
+    display: block;
+    color: #000080;
+    padding: 5% 10%;
+    text-decoration: none;
+		text-align: center;
+}
+
+li a:hover {
+    background-color: #AFEEEE;
+    color: white;
+}
+
+
+footer{
+	float:right;
+  width:50%;
+	margin: 5%
+}
+
+iframe{
+	float:right;
+  width:100%;
+}
+
+table{
+	float:left;
+}
+
+aside{
+	float:right;
+	width:25%;
+}
+
+
+.tituloactividades{
+	width: 100%;
+	text-align: center;
+	float:right;
+
+	font-size: 250%;
+	color: #ff63b1;
+}
+
+.tituloperfil{
+		width: 100%;
+		text-align: center;
+		float:right;
+}
+
+.contenedor{
+	float:left;
+	width: 50%;
+	height: 600px;
+	background-color: #FFFFFF;
+	overflow: auto;
+}
+
+.contenedor figcaption{
+	 	float: right;
+    display: block;
+		font-family:Helvetica;
+		font-size:1.5em;
+		margin-top: 15%
+
+}
+
+.noticias{
+	float: right;
+  width: 30%;
+}
+
+.menuh{
+	margin-top: 11%;
+}
+
+.menuhorizontal{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+		width: 100%;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+.menuhorizontal li{
+	float:left;
+	border-right: 1px solid #000080;
+	width: 12%;
+}
+
+.menuhorizontal li a{
+		display: block;
+    color: #000080;
+    padding: 5% 10%;
+    text-decoration: none;
+		text-align: center;
+}
+
+.menuhorizontal li:last-child {
+    border-right: none;
+}
+
+.horario{
+	float:left;
+	text-align: center;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 100%;
+	border-collapse: collapse;
+}
+
+.horario td{
+     font-weight: normal;
+		 padding: 8px;
+	   border-top: 4px solid #AFEEEE;
+		 border-bottom: 4px solid #AFEEEE;
+		 border-right: 4px solid #AFEEEE;
+		 border-left: 4px solid #AFEEEE;
+}
+
+.tecnicos figure{
+	width: 30%;
+	float:left;
+	margin-right: 0%;
+	margin-left: 3%;
+
+}
+
+.precios{
+	margin-left: 5%;
+	float:left;
+	width: 15%;
+}
+
+.precios h2{
+	color: #000080;
+}
+
+.precios h4{
+	color:#87CEEB;
+}
+
+.precios:hover {
+    background-color: #AFEEEE;
+    color: white;
+}
+
+.iys{
+	width: 30%;
+	float:left;
+	margin-left: 20%;
+}
+
+.iys h5{
+	font-size: 100%;
+	color:#4682B4;
+}
+
+.alta{
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	float:left;
+}
+
+.foro{
+	width: auto;
+}
+
+.preg{
+	width: 80%;
+	margin: auto;
+	box-sizing: border-box;
+	background: #31384A;
+
+}
+
+.preg h2{
+	color:#fff;
+	text-align: center;
+	font-size:200%;
+	margin-bottom:1%;
+}
+
+.preg h4{
+	color:#000080;
+	font-size:150%;
+	background: #FFFFFF;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.preg p{
+	color:#000080;
+	font-size:125%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: #FFFFFF;
+}
+
+.preg input, textarea{
+	width: 100%;
+	margin-bottom: 1%;
+	padding: 1%;
+	box-sizing: border-box;
+
+}
+
+.preg textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+.perfil{
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+.perfil form{
+	float:left;
+	width: 20%;
+}
+
+#bot{
+	background: #AFEEEE;
+	color: #fff;
+	padding: 20px;
+}
+
+#bot:hover{
+	cursor: pointer;
+}
+
+
+.comenforo{
+	margin-top: 5%;
+	font-family: monospace;
+
+}
+
+.comenforo form{
+	width: 50%;
+	margin: auto;
+	background: #31384A;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+
+}
+
+.comenforo h2{
+	color:#fff;
+	text-align: center;
+	margin:2%;
+	font-size:200%;
+	margin-bottom: 2%;
+}
+
+.comenforo input, textarea{
+	width: 100%;
+	margin-bottom: 3%;
+	padding: 2%;
+	box-sizing: border-box;
+}
+
+.comenforo textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+
+#boton{
+	background: #AFEEEE;
+	color: #fff;
+	padding: 20px;
+}
+
+#boton:hover{
+	cursor: pointer;
+}
+
+.menuactividades{
+	width: 30%;
+	float: left;
+	margin-left:10%;
+	margin-right: 10%;
+}
+
+.descripcion{
+	width: 50%;
+	float: left;
+}
+
+.descripcion h1{
+	text-align: center;
+}
+
+.descripcion figure{
+	margin-left: 25%;
+}
+
+.descripcion p{
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 10%;
+}
+
+.contacto{
+	text-align: center;
+}
+
+
+
+@media(max-width:768px){
+	.menuportada{
+		float: right;
+		width: 100%;
+	}
+
+	.imagenportada{
+		float: right;
+		width: 100%;
+	}
+	.logo{
+		margin-top: 10%;
+		width: 30%;
+		float: left;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 10%;
+	}
+
+	.titulo{
+		width: 10%;
+		float: left;
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+
+	.registro{
+		width: 40%;
+		float: left;
+		margin-left: 20%;
+		margin-right: 0;
+		margin-top: 5%;
+	}
+
+	footer{
+		float:left;
+	  width:100%;
+		margin-left: 30%;
+	}
+
+	.horario{
+		float:left;
+		width: 100%;
+		margin-left: 0;
+		text-align: center;
+		font-size: 70%;
+		border-collapse: collapse;
+	}
+
+	.contenedor{
+		float:left;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		height: 600px;
+		background-color: #FFFFFF;
+		overflow: auto;
+	}
+
+	.contenedor figcaption{
+		 	float: right;
+	    display: block;
+			font-family:Helvetica;
+			font-size:1em;
+			margin-top: 15%
+
+	}
+
+	.noticias{
+		float:left;
+		width:50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		text-align: center;
+	}
+
+	.menuhorizontal{
+		list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+			width: 100%;
+	    overflow: hidden;
+	    background-color: #FFFFFF;
+	}
+
+	.menuhorizontal li{
+		float:left;
+		border-right: 1px solid #000080;
+		width: 23%;
+	}
+
+	.menuhorizontal li a{
+			display: block;
+	    color: #000080;
+	    padding: 5% 10%;
+	    text-decoration: none;
+			text-align: center;
+			font-size:1em;
+	}
+
+	.menuhorizontal li:last-child {
+	    border-right: none;
+	}
+
+	.descripcion{
+		width: 100%;
+		float: left;
+	}
+
+	.menuactividades{
+		width: 50%;
+		float: left;
+		margin-left:25%;
+		margin-right: 25%;
+	}
+
+
+}

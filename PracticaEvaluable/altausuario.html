@@ -1,0 +1,190 @@
+<!doctype html> <html lang="es">
+<head>
+<meta charset="utf­8">
+<title>Pr&aacute;ctica Evaluable I</title>
+<link rel="stylesheet" type="text/css" href="aspecto.css"/>
+</head>
+<body>
+
+  <header>
+    <section class="logo">
+      <img src = "imagenes/logo.jpeg" alt = "Logotipo del Centro Deportivo" width="125px" height="100px"/>
+    </section>
+
+    <section class="titulo">
+      <h2>Centro Deportivo</h2>
+      <h1>SERFIT</h1>
+      <h4>Sacrificio&plus;Energ&iacute;a&equals;Resultados</h4>
+    </section>
+
+  <section class="registro">
+    <a>Alicia</a>
+    <h3>Est&aacute;s conectado</h3>
+    <form name="myform" action="index.html" method="POST">
+        <input type="submit" value="Cerrar Sesi&oacute;n" id="br">
+    </form>
+
+    </section>
+  </header>
+
+<br/>
+
+<section class="menuh">
+  <ul class="menuhorizontal">
+    <li><a href="actividades.html"> Actividades</a></li>
+    <li><a href="horario.html"> Horario</a></li>
+    <li><a href="tecnicos.html"> T&eacute;cnicos</a></li>
+    <li><a href="instalaciones.html"> Instalaciones y Servicios</a></li>
+    <li><a href="localizacion.html">Localizaci&oacute;n</a></li>
+    <li><a href="precios.html">Precios y Promociones</a></li>
+    <li><a href="altausuario.html">Alta de Usuario</a></li>
+    <li><a href="foro.html">Foro</a></li>
+  </ul>
+</section>
+
+<h1 class="tituloactividades">Alta Usuario</h1>
+
+
+
+
+
+<form action="procesar.php" method="post" class="alta">
+
+  <fieldset>
+  <legend>Datos Personales</legend>
+
+    <label for = "checkId">NIF&sol;NIE&sol;PASAPORTE&colon; </label>
+    <input type = "text"   id = "checkId"/>
+    <br/>
+
+    <label for="fechanacimiento">Fecha de Nacimiento: </label>
+    <input type="date" name="fecha" min="1900-01-01" max="2018-12-31" step="1">
+    <br/>
+
+    <label for = "checkNombre">Nombre: </label>
+    <input type = "text" id = "checkNombre"/>
+    <br/>
+
+    <label for = "checkApellido1">Primer Apellido: </label>
+    <input type = "text" id = "checkApellido1"/>
+
+    <label for = "checkApellido2">Segundo Apellido: </label>
+    <input type = "text" id = "checkApellido2"/>
+    <br/>
+
+    <label for="sex">Sexo </label>
+    <input type="text" id="sex" list="sexo">
+    <datalist id="sexo">
+      <option value="Masculino"> <option value="Femenino">
+    </datalist>
+
+
+
+  </fieldset>
+
+  <fieldset>
+  <legend>Datos de contacto</legend>
+
+    <label for = "checkDir">Direcci&oacute;n: </label>
+    <input type = "text" id = "checkDir"/>
+    <br/>
+
+    <label for = "checkNum">N&uacute;mero: </label>
+    <input type = "number" id = "checkDir" min="0"/>
+    <label for = "checkBloq">Bloque: </label>
+    <input type = "number" id = "checkBloq" min="0"/>
+    <label for = "checkEsc">Escalera: </label>
+    <input type = "text" id = "checkEsc"/>
+    <label for = "checkPiso">Piso: </label>
+    <input type = "number" id = "checkPiso" min="0"/>
+    <label for = "checkPuer">Puerta: </label>
+    <input type = "text" id = "checkPuer"/>
+    <br/>
+
+    <label for = "checkPost">C&oacute;digo Postal: </label>
+    <input type = "number" id = "checkPost"/>
+
+    <label for = "checkLoc">Localidad: </label>
+    <input type = "text" id = "checkLoc"/>
+    <label for = "checkPro">Provincia: </label>
+    <input type = "text" id = "checkPro"/>
+    <br/>
+
+    <label for = "checkMovil">M&oacute;vil: </label>
+    <input type = "tel" id = "checkMovil"/>
+
+    <label for = "checkTelefono">Tel&eacute;fono: </label>
+    <input type = "tel" id = "checkTelefono"/>
+    <br/>
+
+    <label for = "checkCorreo">Email: </label>
+    <input type = "email" id = "checkCorreo"/>
+
+    </fieldset>
+
+    <fieldset>
+    <legend>Tipo de Tarifa</legend>
+
+    <label for="tarif">Seleccione el tipo de tarifa</label>
+    <input type="text" id="tarif" list="tarifa">
+    <datalist id="tarifa">
+    <option value="Ma&ntilde;ana Joven (19,95 &euro;)"> <option value="Ma&ntilde;ana Adulto (21,95 &euro;)"> <option value="Completo Joven (29,95 &euro;)"> <option value="Completo Jubilado (32,95 &euro;)"> <option value="Completo Adulto (34,95 &euro;)">
+    </datalist>
+
+    </fieldset>
+
+    <fieldset>
+    <legend>Cuestionario</legend>
+
+    <label for="cu1">&iquest;Cu&aacute;les son tus expectativas y objetivos&quest;</label>
+    <input type="text" id="cu1" list="c1">
+    <datalist id="c1">
+    <option value="Salud y Bienestar"> <option value="Diversi&oacute;n y Entretenimiento"> <option value="Mejorar la condici&oacute;n f&iacute;sica"> <option value="Recuperar de una lesi&oacute;n">
+    <option value="Preparaci&oacute;n f&iacute;sica"> <option value="Socializaci&oacute;n">
+    </datalist>
+    <br/>
+
+    <label for="cu2">&iquest;Por qu&eacute; eliges nuestro centro&quest;</label>
+    <input type="text" id="cu2" list="c2">
+    <datalist id="c2">
+    <option value="Cercania"> <option value="Precio"> <option value="Instalaciones y Servicios"> <option value="Horario">
+    <option value="Recomendaciones m&eacute;dicas"> <option value="Motivos de socializaci&oacute;n"> <option value="Otros">
+    </datalist>
+    <br/>
+
+    <label for="cu3">&iquest;Cu&aacute;l es tu horario preferible para asistir a SERFIT&quest;</label>
+    <input type="text" id="cu3" list="c3">
+    <datalist id="c3">
+    <option value="Horario de Ma&ntilde;ana"> <option value="Horario de Medio D&iacute;a">
+    <option value="Horario de Tarde"> <option value="Horario de Tarde&#47;Noche">
+    </datalist>
+    <br/>
+
+    <label for="cu4">&iquest;Cuales son tus actividades preferidas&quest;</label>
+    <input type="text" id="cu4" list="c4">
+    <datalist id="c4">
+    <option value="Tipo Body Pump"> <option value="Tipo Zumba"> <option value="Tipo Body Combat">
+    <option value="Tipo Cicling Life"> <option value="Tipo Yoga"> <option value="Tipo Pilates">
+    <option value="Tipo GAP"> <option value="Tipo Step"> <option value="Otras">
+    </datalist>
+    <br/>
+
+    </fieldset>
+
+    <br/>
+
+    <input type="submit" value="Darse de Alta">
+    <input type="reset" value="Resetear Formulario">
+
+</form>
+
+
+<br/>
+
+<footer>
+  <a href="contacto.html">Contacto</a>
+  <a href="como_se_hizo.pdf">C&oacute;mo se hizo</a>
+</footer>
+
+
+</body> </html>
